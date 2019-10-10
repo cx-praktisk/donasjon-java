@@ -1,4 +1,4 @@
-#Inpup gies slik: "<tall> <enhet>"
+#Input gies slik: "<tall> <enhet>"
 1 tusenlapp
 3 tusenlapper
 1 femhundrelapp
