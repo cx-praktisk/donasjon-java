@@ -1,0 +1,19 @@
+#Inpup gies slik: "<tall> <enhet>"
+1 tusenlapp
+3 tusenlapper
+1 femhundrelapp
+2 femhundrelapper
+1 tohundrelapp
+6 tohundrelapper
+1 hundrelapp
+8 hundrelapper
+1 femtilapp
+20 femtilapper
+1 tyvekroning
+3 tyvekroninger
+1 tikroning
+8 tikroninger
+1 femkroning
+90 femkroninger
+1 enkroning
+7 enkroninger
