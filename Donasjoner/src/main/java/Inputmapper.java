@@ -8,22 +8,14 @@ public class Inputmapper {
     Mapper mapper = new Mapper();
 
     /**
-     * Fyll inn kode her for å oversette inputen til å bli en verdi
-     * @param inputlines
-     * @return
+     * Fyll inn kode her for å oversette inputen til å bli en verdi. Mapper inneholder penge-enhetene
+     * @param inputlines Liste med strenger på formatet "<tall> <penge-enhet>"
+     * @return en liste som inneholder tallverdien for hver av elementene i input'en
      */
     public List<Integer> getValueFromInputlines(List<String> inputlines) {
         List<Integer> valuesLines = new ArrayList<>();
-        int count;
-        Mapper.ValidInput type;
-
-        for (String line : inputlines) {
-            String[] countAndType = line.split(" ");
-            count = Integer.parseInt(countAndType[0]);
-            type = mapper.getValidInput(countAndType[1]);
-
-            valuesLines.add(count * type.getValue());
-        }
+        // Her kan du feks gå i Mapper å mappe fra penge-enhet til å finne verdien av enheten
+        // du må også gange det med tallet.
         return valuesLines;
     }
 }
